@@ -1,0 +1,44 @@
+:root {
+  /* Colours */
+
+  --clr-primary-red: hsl(0, 78%, 62%);
+  --clr-primary-cyan: hsl(180, 62%, 55%);
+  --clr-primary-orange: hsl(34, 97%, 64%);
+  --clr-primary-blue: hsl(212, 86%, 64%);
+  --clr-neutral-700: hsl(234, 12%, 34%);
+  --clr-neutral-500: hsl(229, 6%, 66%);
+  --clr-neutral-100: hsl(0, 0%, 98%);
+
+  /* Font families */
+
+  --ff-primary: "Poppins", sans-serif;
+
+  /* Font sizes */
+
+  --fs-xs: 0.8125rem; /* card p */
+  --fs-sm: 0.9375rem; /* header p */
+  --fs-md: 1.25rem; /* card h3 */
+  --fs-lg: 1.5rem; /* header h1, h2 */
+
+  /* Font weights */
+
+  --fw-light: 200; /* h1 */
+  --fw-reg: 400; /* body */
+  --fw-semibold: 600; /* h2, h3 */
+
+  /* Gutters */
+
+  --g-xs: 0.375rem; /* gap between h3 and p at desktop size */
+  --g-sm: 1rem; /* Gap between h2 and p in header */
+  --g-md: 1.75rem; /* padding for cards, gap between cards */
+  --g-lg: 4rem; /* gap between header and main */
+  --g-xl: 5rem; /* viewport top padding */
+
+  /* Radii */
+
+  --rad-md: 0.5rem; /* card bdrs */
+
+  /* Drop shadows */
+
+  --bxs-md: 0px 15px 30px -11px rgba(131, 166, 210, 0.5); /* cards */
+}
