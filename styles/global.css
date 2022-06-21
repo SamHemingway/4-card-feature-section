@@ -145,6 +145,10 @@ h2 {
   margin-bottom: var(--g-sm);
 }
 
+.lead {
+  line-height: 25px;
+}
+
 /*==============================
 |5| CARD COMPONENT
 ==============================*/
@@ -216,6 +220,10 @@ h2 {
   }
 }
 @media (min-width: 1100px) {
+  :root {
+    --fs-lg: 2.25rem;
+  }
+
   .cards {
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(4, 0.5fr);
