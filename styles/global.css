@@ -115,6 +115,7 @@ body {
 
 main {
   padding: calc(var(--g-sm) * 2);
+  padding-top: 0;
 }
 
 /*==============================
